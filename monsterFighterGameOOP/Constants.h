@@ -9,6 +9,9 @@ const int PLAYER_START_HEALTH = 10;
 const int PLAYER_START_DAMAGE = 1;
 const int PLAYER_START_GOLD = 0;
 const int PLAYER_MAX_LEVEL = 20;
+// WHEN LEVEL UP:
+const int PLAYER_INCREASE_HEALTH = 1;
+const int PLAYER_INCREASE_DAMAGE = 1;
 //------------------------------------------------------
 // MONSTER SETTINGS:
 

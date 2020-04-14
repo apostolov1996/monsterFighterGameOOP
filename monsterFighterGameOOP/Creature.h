@@ -14,13 +14,13 @@ public:
 	// 1.1 Default creature constructor:
 	Creature() : m_name{ "" }, m_symbol{ '\0' }, m_health{ 0 }, m_damage{ 0 }, m_gold{ 0 }
 	{
-		std::cout << "Creature: Default constructor has been used.\n";
+		/*std::cout << "Creature: Default constructor has been used.\n";*/
 	}
 	// 1.2 Non Default creature constructor (Non-const):
 	Creature(const std::string& name, char symbol, int health, int damage, int gold) :
 		m_name{ name }, m_symbol{ symbol }, m_health{ health }, m_damage{ damage }, m_gold{ gold }
 	{
-		std::cout << "Creature: Non default constructor has been used.\n";
+		/*std::cout << "Creature: Non default constructor has been used.\n";*/
 	}
 	// 1.3 getName():
 	const std::string& getName() const { return m_name; }

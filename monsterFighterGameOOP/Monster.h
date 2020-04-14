@@ -42,7 +42,7 @@ public:
 		monsterData[type].gold
 		)
 	{
-		std::cout << "A monster has been created.\n";
+		/*std::cout << "A monster has been created.\n";*/
 	}
 	static Monster getRandomMonster()
 	{
